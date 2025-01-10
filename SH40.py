@@ -4,8 +4,12 @@
 Created on Fri Jan 10 20:40:03 2025
 
 @author: lw
+
+The main class to handle all communication with the heating system.
+
 """
 
+import serial
 import numpy as np
 import pandas as pd
 from datetime import datetime
